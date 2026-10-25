@@ -26,9 +26,26 @@ let number = 7;
     Q3 - Age check
     Given an age, print "You can vote" if the age is 18 or older; otherwise, print "You cannot vote yet"
 */
-let age = 19;
-if (age >= 18) {
-    console.log("You can vote");
+// let age = 19;
+// if (age >= 18) {
+//     console.log("You can vote");
+// } else {
+//     console.log("You cannot vote");
+// }
+
+/*
+    Q4 - Temperature advice
+    Given a temperature:
+
+    - Above 30: print "It's hot"
+    - From 15 to 30 inclusive: print "It's mild"
+    - Below 15: print "It's cold"
+*/
+const temp = 1;
+if (temp > 30) {
+    console.log("It's hot");
+} else if ((15 <= temp) && (temp <= 30)) {
+    console.log("It's mild");
 } else {
-    console.log("You cannot vote");
+    console.log("It's cold");
 }
