@@ -6,7 +6,7 @@ let number = 7;
 */
 // if (number < 0 ) {
 //     console.log("The number is negative");
-// } else if ( number == 0) {
+// } else if ( number === 0) {
 //     console.log("The number is Zero");
 // } else {
 //     console.log("The number is positive");
@@ -62,9 +62,9 @@ let number = 7;
 // let score = 75;
 // if (score >= 90) {
 //     console.log("A");
-// } else if ((80<=score) && (score<=89)) {
+// } else if (score >= 80) {
 //     console.log("B");
-// } else if ((70<=score) && (score<=79)) {
+// } else if (score >= 70) {
 //     console.log("C");
 // } else {
 //     console.log("Keep practicing");
@@ -87,8 +87,8 @@ let number = 7;
     Q7 - Password check
     Given a password, print "Access granted" if it matches "js123"; otherwise, print "Incorrect password".
 */
-// let password = "js@123";
-// if (password === "js@123") {
+// let password = "js123";
+// if (password === "js123") {
 //     console.log("Access granted");
 // } else {
 //     console.log("Incorrect password");
@@ -99,7 +99,7 @@ let number = 7;
     Given a day name, print "Weekend" for Saturday or Sunday; otherwise, print "Weekday".
 */
 let day = "Sunday";
-if((day === "Saturday") || (day === "Sunday")) {
+if ((day === "Saturday") || (day === "Sunday")) {
     console.log("Weekend");
 } else {
     console.log("Weekday");
