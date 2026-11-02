@@ -41,11 +41,66 @@ let number = 7;
     - From 15 to 30 inclusive: print "It's mild"
     - Below 15: print "It's cold"
 */
-const temp = 1;
-if (temp > 30) {
-    console.log("It's hot");
-} else if ((15 <= temp) && (temp <= 30)) {
-    console.log("It's mild");
+// const temp = 1;
+// if (temp > 30) {
+//     console.log("It's hot");
+// } else if ((15 <= temp) && (temp <= 30)) {
+//     console.log("It's mild");
+// } else {
+//     console.log("It's cold");
+// }
+
+/*
+    Q5 - Grade checker
+    Given a score from 0 to 100:
+
+    90 or above: "A"
+    80–89: "B"
+    70–79: "C"
+    Below 70: "Keep practicing"
+*/
+// let score = 75;
+// if (score >= 90) {
+//     console.log("A");
+// } else if ((80<=score) && (score<=89)) {
+//     console.log("B");
+// } else if ((70<=score) && (score<=79)) {
+//     console.log("C");
+// } else {
+//     console.log("Keep practicing");
+// }
+
+/*
+    Q6 - Largest of two numbers
+    Given two numbers, print which one is larger—or say they are equal
+*/
+// let num1 = -9, num2 = -9
+// if (num1 > num2) {
+//     console.log(num1)
+// } else if (num1 < num2) {
+//     console.log(num2);
+// } else {
+//     console.log("Numbers are equal")
+// }
+
+/*
+    Q7 - Password check
+    Given a password, print "Access granted" if it matches "js123"; otherwise, print "Incorrect password".
+*/
+// let password = "js@123";
+// if (password === "js@123") {
+//     console.log("Access granted");
+// } else {
+//     console.log("Incorrect password");
+// }
+
+/*
+    Q8 - Weekend or weekday
+    Given a day name, print "Weekend" for Saturday or Sunday; otherwise, print "Weekday".
+*/
+let day = "Sunday";
+if((day === "Saturday") || (day === "Sunday")) {
+    console.log("Weekend");
 } else {
-    console.log("It's cold");
+    console.log("Weekday");
 }
